@@ -1,0 +1,47 @@
+h1 {
+    font-family: 'Courier New', Courier, monospace;
+    text-decoration: underline;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: black;
+    color: white;
+}
+
+.OuterWildsSection {
+    background-color: black;
+    color: orange;
+}
+
+.OuterWildsPicture {
+    float: right;
+}
+
+.OneShotSection {
+    background-color:
+        /*#c11b62*/
+        #1b031c;
+    color: #ffcf52;
+}
+
+.OneShotLogo {
+    width: 300px;
+    height: auto;
+}
+
+.OneShotText {
+    float: right;
+}
+
+.InscryptionSection {
+    background-color: #020a0f;
+    color: #f1aa5e;
+    tex
+}
+
+.InscryptionPicture {
+    float: right;
+    Width: 450px;
+    Height: auto;
+}
