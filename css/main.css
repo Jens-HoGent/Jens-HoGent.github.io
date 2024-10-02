@@ -7,3 +7,7 @@ h1 {
     text-decoration: underline;
     font-family: papyrus, fantasy;
 }
+
+ul {
+    text-align: left;
+}
