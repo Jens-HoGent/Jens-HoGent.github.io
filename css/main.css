@@ -1,13 +1,87 @@
 body {
-    text-align: center;
     font-family: monospace;
+    background-color: hwb(180 62% 1%);
 }
 
+/* Om tekst te centeren */
+.center {
+    text-align: center;
+}
+
+/* navigatie */
+nav {
+    background-color: #80a1a1;
+    font-size: 25px;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.navList {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.navLink {
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    display: block;
+}
+
+.navLink:hover {
+    color: #fff;
+}
+
+.navCurrentPage {
+    color: blue;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+}
+
+/* Main title */
 h1 {
     text-decoration: underline;
     font-family: papyrus, fantasy;
 }
 
-ul {
-    text-align: left;
+article {
+    background-color: #80a1a1;
+}
+
+/* Voor oefeningen subsectie */
+.oefContainer {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.oefArticle {
+flex: 3;
+}
+
+.oefAside {
+    flex: 1;
+    max-width: 200px;
+    background-color: black;
+}
+
+.oefQuickNav {
+    color: white;
+}
+
+.oefQuickNavLink {
+    font-size: 15px;
+    color: white;
+}
+
+/* Voor FAQ subsectie */
+
+.FAQvraag {
+    font-size: 17px;
+    text-decoration-line: overline;
 }
