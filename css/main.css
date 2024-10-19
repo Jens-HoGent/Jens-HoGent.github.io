@@ -52,36 +52,3 @@ h1 {
 article {
     background-color: #80a1a1;
 }
-
-/* Voor oefeningen subsectie */
-.oefContainer {
-    display: flex;
-    justify-content: space-between;
-    gap: 30px;
-}
-
-.oefArticle {
-flex: 3;
-}
-
-.oefAside {
-    flex: 1;
-    max-width: 200px;
-    background-color: black;
-}
-
-.oefQuickNav {
-    color: white;
-}
-
-.oefQuickNavLink {
-    font-size: 15px;
-    color: white;
-}
-
-/* Voor FAQ subsectie */
-
-.FAQvraag {
-    font-size: 17px;
-    text-decoration-line: overline;
-}

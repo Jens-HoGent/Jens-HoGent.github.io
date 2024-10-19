@@ -6,6 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site</title>
     <link rel="stylesheet" href="../css/main.css">
+    <Style>
+        .Container {
+            display: flex;
+            justify-content: space-between;
+            gap: 30px;
+        }
+
+        Article {
+            flex: 3;
+        }
+
+        Aside {
+            flex: 1;
+            max-width: 200px;
+            background-color: black;
+        }
+
+        Aside a {
+            font-size: 15px;
+            color: white;
+        }
+    </Style>
 </head>
 
 <body>
@@ -41,8 +63,8 @@
         <br>
     </article>
     <br>
-    <div class="oefContainer">
-        <article class="oefArticle">
+    <div class="Container">
+        <article>
             <ul>
                 <li>
                     <h3 id="les1">Les 1:</h3>
@@ -106,40 +128,85 @@
                 </li>
                 <li>
                     <h3 id="les3">Les 3:</h3>
+                    <h4>Reeks 1: tabellen</h4>
                     <dl>
-
+                        <dt><a href="../les3/01-tabellen/oefening1" target="_blank" id="L3R1O1">Oefening 1</a></dt>
+                        <dd>
+                            Bij deze oefening moest ik enkel een tabel aanmaken en de gegevens erin steken.
+                        </dd>
+                        <dt><a href="../les3/01-tabellen/oefening2" target="_blank" id="L3R1O2">Oefening 2</a></dt>
+                        <dd>
+                            Bij deze oefening moest ik een tabel aanmaken, hem de correcte borders geven en een geneste
+                            tabel erin steken zonder borders.
+                        </dd>
+                        <dt><a href="../les3/01-tabellen/oefening3" target="_blank" id="L3R1O3">Oefening 3</a></dt>
+                        <dd>
+                            Bij deze site werd het skelet met inhoud gegeven, en moest ik enkel de juiste tabellen
+                            aanmaken.
+                        </dd>
                     </dl>
+                    <h4>Reeks 2: formulieren</h4>
+                    <dl>
+                        <dt><a href="../les3/02-formulieren/BolDotCom" target="_blank" id="L3R2O0">Oefening 0: BolDotCom</a></dt>
+                        <dd>Hierbij was het doel om de pagina aan te maken en de specifieke invoer toe te voegen.</dd>
+                    </dl>
+                </li>
+                <li>
+                    <h3 id="les4">Les 4:</h3>
                 </li>
             </ul>
         </article>
-        <aside class="oefAside">
-            <ul class="oefQuickNav">
+        <aside>
+            <ul>
                 <li>
-                    <a href="#les1" class="oefQuickNavLink">Les 1</a>
+                    <a href="#les1">Les 1</a>
                     <ul>
                         <li>
-                            <a href="#L1O0" class="oefQuickNavLink">Oefening 0</a>
+                            <a href="#L1O0">Oefening 0</a>
                         </li>
                         <li>
-                            <a href="#L1O1" class="oefQuickNavLink">Oefening 1</a>
+                            <a href="#L1O1">Oefening 1</a>
                         </li>
                         <li>
-                            <a href="#L1O2" class="oefQuickNavLink">Oefening 2</a>
+                            <a href="#L1O2">Oefening 2</a>
                         </li>
                     </ul>
                 </li>
                 <li>
-                    <a href="#les2" class="oefQuickNavLink">Les 2</a>
+                    <a href="#les2">Les 2</a>
                     <ul>
                         <li>
-                            <a href="#L2R1O2" class="oefQuickNavLink">Oefening 1.2</a>
+                            <a href="#L2R1O2">Oefening 1.2</a>
                         </li>
                         <li>
-                            <a href="#L2R2O1" class="oefQuickNavLink">Oefening 2.1</a>
+                            <a href="#L2R2O1">Oefening 2.1</a>
                         </li>
-                        <li><a href="#L2R2O2" class="oefQuickNavLink">Oefening 2.2</a></li>
-                        <li><a href="#L2R2O3" class="oefQuickNavLink">Oefening 2.3</a></li>
-                        <li><a href="#L2O4" class="oefQuickNavLink">Oefening 4</a></li>
+                        <li>
+                            <a href="#L2R2O2">Oefening 2.2</a>
+                        </li>
+                        <li>
+                            <a href="#L2R2O3">Oefening 2.3</a>
+                        </li>
+                        <li>
+                            <a href="#L2O4">Oefening 4</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#les3">Les 3</a>
+                    <ul>
+                        <li>
+                            <a href="#L3R1O1">Oefening 1.1</a>
+                        </li>
+                        <li>
+                            <a href="#L3R1O2">Oefening 1.2</a>
+                        </li>
+                        <li>
+                            <a href="#L3R1O3">Oefening 1.3</a>
+                        </li>
+                        <li>
+                            <a href="#L3R2O0">Oefening 2.0</a>
+                        </li>
                     </ul>
                 </li>
             </ul>
